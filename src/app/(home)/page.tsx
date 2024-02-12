@@ -1,5 +1,6 @@
 
 import Header from "@/app/_components/header";
+import Search from "../_components/search";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
             }).format(new Date())
           }
         </p>
+      </div>
+      <div className="px-5 mt-6">
+        <Search />
       </div>
 
     </main>
