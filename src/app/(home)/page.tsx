@@ -1,6 +1,7 @@
 
 import Header from "@/app/_components/header";
-import Search from "../_components/search";
+import Search from "@/app/_components/search";
+import BookingItem from "@/app/_components/booking-item";
 
 export default function Home() {
   return (
@@ -20,6 +21,10 @@ export default function Home() {
       </div>
       <div className="px-5 mt-6">
         <Search />
+      </div>
+      <div className="px-5 mt-6">
+        <h2 className="uppercase text-xs text-gray-400 font-bold mb-3">Agendamentos</h2>
+        <BookingItem />
       </div>
 
     </main>
